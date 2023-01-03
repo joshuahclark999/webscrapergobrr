@@ -4,10 +4,13 @@ import requests
 import random
 from bs4 import BeautifulSoup
 from collections import Counter
+
+# Selenium imports
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import firefox
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.common.by import By
 
 def getUserAgent():
   userAgents = []
@@ -47,10 +50,10 @@ def extractSource(url):
     browser = webdriver.Firefox(options=fireFoxOptions)
     browser.get(url)
     browser.implicitly_wait(10)
-    # body = browser.find_element(By.tagName("body"))
-    # print(body)
-    print(browser.find_element(By.XPATH, "/html/body").text)
+    body = browser.find_element(By.XPATH, "//body[1]")
+    print(body.text)
     
+    browser.close()
   finally:
     try:
       browser.close()
@@ -76,15 +79,15 @@ def getData(source, wordlist):
 
 def main():
   
-  listPathuser = input("Enter a path to a list :> ")
+  # listPathuser = input("Enter a path to a list :> ")
   URLuser = input("Enter job listing link :> ")  
   wordList = []
-  with open(listPathuser) as f:
-    for word in f:
-      word = word.strip()
-      wordList.append(word)  
-  
-  getData(extractSource(URLuser), wordList)
+  # with open(listPathuser) as f:
+  #   for word in f:
+  #     word = word.strip()
+  #     wordList.append(word)  
+  extractSource(URLuser)
+  # getData(extractSource(URLuser), wordList)
   
 if __name__ == "__main__":
     main()

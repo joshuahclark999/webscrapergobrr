@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 import requests
-import random
-from bs4 import BeautifulSoup
+import re
 from collections import Counter
 
 # Selenium imports
@@ -35,15 +34,14 @@ def getData(body, wordlist):
   htmlSplit = []
   goodWords = []
   htmlSplit = body.split(" ")
-  print(htmlSplit)
-  # for body in names:
-  #   htmlSplit = body.text.split()
-  #   for x in wordlist:
-  #     if x in htmlSplit or x.lower() in htmlSplit:
-  #      goodWords.append(x)
-
-  # goodWords = Counter(goodWords)
-  # print(goodWords)
+  for x in htmlSplit:
+    x = x.strip()
+    x = re.sub('[^a-zA-Z\d\s:]', '', x)
+    if x.lower() in wordlist:
+      goodWords.append(x)
+  
+  goodWords = Counter(goodWords)
+  print(goodWords)
     
 
 def main():
@@ -54,6 +52,7 @@ def main():
   with open(listPathuser) as f:
     for word in f:
       word = word.strip()
+      word = word.lower()
       wordList.append(word)  
   
   getData(extractSource(URLuser), wordList)

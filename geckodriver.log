@@ -522,3 +522,11 @@ DevTools listening on ws://127.0.0.1:53029/devtools/browser/4649cb80-bb38-4eba-b
 JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
 1672776540987	Marionette	INFO	Stopped listening on port 53014
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672777237275	geckodriver	INFO	Listening on 127.0.0.1:53219
+1672777237796	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53220" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileUfJC7C"
+1672777240901	Marionette	INFO	Marionette enabled
+1672777241575	Marionette	INFO	Listening on port 53229
+Read port: 53229
+WebDriver BiDi listening on ws://127.0.0.1:53220
+1672777241953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileUfJC7C/search.json.mozlz4", (void 0)))

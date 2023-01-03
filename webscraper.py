@@ -54,7 +54,7 @@ def main():
       word = word.strip()
       word = word.lower()
       wordList.append(word)  
-  
+
   getData(extractSource(URLuser), wordList)
   
 if __name__ == "__main__":

@@ -3,7 +3,7 @@
 import requests
 import re
 from collections import Counter
-
+from prettytable import PrettyTable
 # Selenium imports
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -18,36 +18,47 @@ def extractSource(url):
     fireFoxOptions.add_argument("--headless")
     browser = webdriver.Firefox(options=fireFoxOptions)
     browser.get(url)
-    browser.implicitly_wait(10)
+    browser.implicitly_wait(5)
     body = browser.find_element(By.XPATH, "//body[1]")
-
     return body.text
     
-    browser.close()
+    browser.quit()
   finally:
     try:
-      browser.close()
+      browser.quit()
     except:
       pass
       
 def getData(body, wordlist):
   htmlSplit = []
   goodWords = []
+  wordCount = 0
+  table = PrettyTable()
+
   htmlSplit = body.split(" ")
   for x in htmlSplit:
     x = x.strip()
     x = re.sub('[^a-zA-Z\d\s:]', '', x)
     if x.lower() in wordlist:
       goodWords.append(x)
-  
+      wordCount += 1 
+
   goodWords = Counter(goodWords)
-  print(goodWords)
-    
+  goodWords = dict(sorted(goodWords.items(), key=lambda item: item[1]))
+
+  table.field_names = ["Keyword", "Times used"]
+  
+  for k, v in goodWords.items():
+    table.add_row([k,v])
+
+  print(table)
+
 
 def main():
   
   listPathuser = input("Enter a path to a list :> ")
   URLuser = input("Enter job listing link :> ")  
+
   wordList = []
   with open(listPathuser) as f:
     for word in f:

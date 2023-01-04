@@ -782,3 +782,4 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:55934/devtools/browser/cdc49bb8-43a5-4dc6-86ce-bf00920cbfad
 1672844978418	Marionette	INFO	Stopped listening on port 55965
 JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
+1672845171650	Marionette	INFO	Stopped listening on port 55920

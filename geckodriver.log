@@ -783,3 +783,52 @@ DevTools listening on ws://127.0.0.1:55934/devtools/browser/cdc49bb8-43a5-4dc6-8
 1672844978418	Marionette	INFO	Stopped listening on port 55965
 JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
 1672845171650	Marionette	INFO	Stopped listening on port 55920
+1672860014187	geckodriver	INFO	Listening on 127.0.0.1:57833
+1672860014708	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57834" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofilefQ0nIl"
+1672860016905	Marionette	INFO	Marionette enabled
+1672860017080	Marionette	INFO	Listening on port 57843
+Read port: 57843
+WebDriver BiDi listening on ws://127.0.0.1:57834
+Read port: 57843
+1672860018888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofilefQ0nIl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57834/devtools/browser/74c24c63-b0fa-4b4d-b7bb-45b6be5f5421
+1672860025648	geckodriver	INFO	Listening on 127.0.0.1:57860
+1672860026154	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "57861" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofile9hmnnj"
+*** You are running in headless mode.
+1672860030688	Marionette	INFO	Marionette enabled
+1672860031420	Marionette	INFO	Listening on port 57887
+Read port: 57887
+Read port: 57887
+Read port: 57887
+WebDriver BiDi listening on ws://127.0.0.1:57861
+1672860034236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofile9hmnnj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57861/devtools/browser/736ba39f-efdf-4a49-ae6c-685b36376f5b
+1672860045090	Marionette	INFO	Stopped listening on port 57887
+JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
+1672860075704	Marionette	INFO	Stopped listening on port 57843
+1672860093590	geckodriver	INFO	Listening on 127.0.0.1:57953
+1672860094187	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57954" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileLJOY6O"
+1672860096023	Marionette	INFO	Marionette enabled
+1672860096137	Marionette	INFO	Listening on port 57962
+Read port: 57962
+WebDriver BiDi listening on ws://127.0.0.1:57954
+1672860096764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileLJOY6O/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57954/devtools/browser/358cc09e-dfae-4bbc-a324-0fb91599e2b0
+1672860101363	geckodriver	INFO	Listening on 127.0.0.1:57973
+1672860101879	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "57974" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileHzyjw4"
+*** You are running in headless mode.
+1672860105903	Marionette	INFO	Marionette enabled
+1672860105995	Marionette	INFO	Listening on port 58003
+Read port: 58003
+Read port: 58003
+Read port: 58003
+WebDriver BiDi listening on ws://127.0.0.1:57974
+Read port: 58003
+1672860110287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileHzyjw4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57974/devtools/browser/1932f85f-66db-468f-adbc-dcf3d2e0b758

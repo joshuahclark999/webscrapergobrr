@@ -54,3 +54,116 @@ SOC
 Analyst
 Security
 Network
+Malware
+Virus
+Trojan
+Ransomware
+Worm
+Spyware
+Adware
+Rootkit
+Keylogger
+Phishing
+Spear phishing
+Whaling
+Vishing
+Smishing
+RAT
+Botnet
+DDoS attack
+SQL injection
+Cross-site scripting
+XSS
+Cross-site request forgery 
+CSRF
+Command injection
+Code injection
+Remote code execution
+Directory traversal
+File inclusion
+Access control
+Authentication
+Authorization
+Password cracking
+Brute force attack
+Dictionary attack
+Rainbow table
+Two-factor authentication
+Multi-factor authentication
+Single sign-on
+Identity and access management 
+IAM
+Encryption
+Public-key encryption
+Private-key encryption
+Symmetric-key encryption
+Hash function
+Digital signature
+Certificate authority 
+CA
+Secure Sockets Layer 
+SSL
+Transport Layer Security 
+TLS
+HTTPS
+PKI
+VPN
+Firewall
+Network firewall
+Host-based firewall
+Application firewall
+Stateful firewall
+Packet-filtering firewall
+Next-generation firewall 
+NGFW
+Intrusion prevention system 
+IPS
+Intrusion detection system 
+IDS
+Security Information and Event Management 
+SIEM
+Vulnerability management
+Patch management
+Risk assessment
+Threat intelligence
+Asset management
+Compliance
+Data loss prevention 
+DLP
+Encryption key management
+Data governance
+Data classification
+Information lifecycle management 
+ILM
+Disaster recovery
+Business continuity
+Incident response
+Cybersecurity insurance
+Cybersecurity framework
+Cybersecurity standard
+Cybersecurity law
+Cybercrime
+Cyber espionage
+Cyberwarfare
+Advanced persistent threat 
+APT
+Hacktivism
+Cyberbullying
+Cyberstalking
+Cyber harassment
+Sextortion
+Online predator
+Cyber abuse
+Cyber threats
+Cyber risks
+Cyber attack
+Cyber defense
+Cybersecurity posture
+Cybersecurity strategy
+Cybersecurity policies
+Cybersecurity training
+Cybersecurity awareness
+Cybersecurity best practices
+Cybersecurity hygiene
+Cybersecurity incident
+Cybersecurity breach

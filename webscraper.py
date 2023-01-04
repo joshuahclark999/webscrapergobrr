@@ -33,7 +33,7 @@ def getData(body, wordlist):
   htmlSplit = body.split(" ")
   for x in htmlSplit:
     x = x.strip()
-    x = re.sub('[^a-zA-Z\d\s:]', '', x)
+    x = re.sub('[^+a-zA-Z\d\s:]', '', x)
     if x.lower() in wordlist:
       goodWords.append(x)
       wordCount += 1 

@@ -167,3 +167,131 @@ Cybersecurity best practices
 Cybersecurity hygiene
 Cybersecurity incident
 Cybersecurity breach
+AAA
+RSA
+Radius
+Web-filtering
+Web filtering
+scripting
+Automation
+Python
+python3
+Coding
+Programming
+AWS 
+Cloud
+Azure
+MongoDB
+MITRE 
+ATT&CK 
+Nist 
+Cisco 
+SNMP 
+IPSec 
+NAT
+WAN 
+LAN
+Network
+Computer network
+Local area network 
+Wide area network 
+Metropolitan area network
+MAN
+Wireless network
+WiFi
+Hotspot
+Bluetooth
+Cellular network
+Internet
+World Wide Web
+Cloud computing
+Data center
+Server
+Client
+Peer-to-peer 
+P2P
+Protocol
+IP address
+MAC address
+Domain name
+DNS
+HTTP
+HTTPS
+FTP
+SFTP
+SMTP
+POP3
+IMAP
+Telnet
+SSH
+VPN
+TCP
+UDP
+IPv4
+IPv6
+Routing
+Switching
+Hub
+Bridge
+Router
+Modem
+Gateway
+Access point
+Repeater
+Load balancer
+Firewall
+Network address translation 
+NAT
+Virtual LAN (VLAN)
+Virtual private network
+Subnet
+Network mask
+Network segment
+Network topology
+Star topology
+Bus topology
+Ring topology
+Mesh topology
+Hybrid topology
+Network diagram
+Network mapping
+Network discovery
+Network inventory
+Network monitoring
+Network management
+Network security
+Network performance
+Bandwidth
+Latency
+Packet
+Frame
+Bit
+Byte
+Data transmission
+Data transfer
+Data transfer rate
+Data throughput
+Streaming
+Download
+Upload
+Synchronization
+Asynchronous
+Parallel
+Serial
+Full duplex
+Half duplex
+Coaxial cable
+Twisted pair
+Fiber optic
+Wireless
+Infrared
+Radio frequency
+Bluetooth
+Cellular
+Satellite
+Network interface card
+NIC
+Network adapter
+Network interface
+Network port
+Network cable

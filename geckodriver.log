@@ -832,3 +832,27 @@ Read port: 58003
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileHzyjw4/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:57974/devtools/browser/1932f85f-66db-468f-adbc-dcf3d2e0b758
+1672860313036	geckodriver	INFO	Listening on 127.0.0.1:58106
+1672860313557	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58107" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileofc3On"
+1672860315816	Marionette	INFO	Marionette enabled
+1672860316075	Marionette	INFO	Listening on port 58115
+Read port: 58115
+WebDriver BiDi listening on ws://127.0.0.1:58107
+Read port: 58115
+1672860317434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileofc3On/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58107/devtools/browser/523acb52-2343-4bfe-a1fd-fd597b753b51
+1672860322257	geckodriver	INFO	Listening on 127.0.0.1:58131
+1672860322768	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "58132" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofile9hL4tP"
+*** You are running in headless mode.
+1672860324694	Marionette	INFO	Stopped listening on port 57962
+1672860327720	Marionette	INFO	Marionette enabled
+1672860328294	Marionette	INFO	Listening on port 58162
+Read port: 58162
+Read port: 58162
+WebDriver BiDi listening on ws://127.0.0.1:58132
+Read port: 58162
+1672860331016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofile9hL4tP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58132/devtools/browser/58a15069-e4f9-4b02-83cd-8f4e6e987774

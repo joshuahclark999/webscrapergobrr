@@ -856,3 +856,237 @@ Read port: 58162
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofile9hL4tP/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:58132/devtools/browser/58a15069-e4f9-4b02-83cd-8f4e6e987774
+1672860844058	geckodriver	INFO	Listening on 127.0.0.1:58340
+1672860844829	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58341" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileItUfGf"
+1672860848848	Marionette	INFO	Marionette enabled
+1672860848859	Marionette	INFO	Stopped listening on port 58115
+1672860848989	Marionette	INFO	Listening on port 58349
+Read port: 58349
+Read port: 58349
+WebDriver BiDi listening on ws://127.0.0.1:58341
+1672860850445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileItUfGf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58341/devtools/browser/87d98351-237b-4011-acce-ce13efe3504e
+1672860855710	geckodriver	INFO	Listening on 127.0.0.1:58365
+1672860856234	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "58366" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofile8TPIAz"
+*** You are running in headless mode.
+1672860858693	Marionette	INFO	Marionette enabled
+1672860858835	Marionette	INFO	Listening on port 58393
+Read port: 58393
+WebDriver BiDi listening on ws://127.0.0.1:58366
+Read port: 58393
+1672860860671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofile8TPIAz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58366/devtools/browser/25e9991c-f0a8-44b1-8d46-fc04f82369d0
+1672862851974	Marionette	INFO	Stopped listening on port 58349
+1672963552989	geckodriver	INFO	Listening on 127.0.0.1:59275
+1672963553530	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59276" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofile0gx3UY"
+1672963556364	Marionette	INFO	Marionette enabled
+1672963556474	Marionette	INFO	Listening on port 59285
+Read port: 59285
+WebDriver BiDi listening on ws://127.0.0.1:59276
+1672963557557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofile0gx3UY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59276/devtools/browser/a4348209-a2a7-4cc9-9f58-cef867ad449f
+1672963563569	geckodriver	INFO	Listening on 127.0.0.1:59303
+1672963564112	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "59304" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofiletXGjms"
+*** You are running in headless mode.
+1672963565938	Marionette	INFO	Marionette enabled
+1672963566180	Marionette	INFO	Listening on port 59322
+Read port: 59322
+WebDriver BiDi listening on ws://127.0.0.1:59304
+1672963567575	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofiletXGjms/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59304/devtools/browser/b797185e-edba-428d-8b31-b43041ea772d
+1672963687192	Marionette	INFO	Stopped listening on port 59285
+1672963704541	geckodriver	INFO	Listening on 127.0.0.1:59421
+1672963705072	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59422" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofiledKpXHx"
+1672963707173	Marionette	INFO	Marionette enabled
+1672963707264	Marionette	INFO	Listening on port 59429
+Read port: 59429
+WebDriver BiDi listening on ws://127.0.0.1:59422
+1672963708094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofiledKpXHx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59422/devtools/browser/0a6b863d-9aff-4709-b165-86419c79a1be
+1672963711668	geckodriver	INFO	Listening on 127.0.0.1:59437
+1672963712182	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "59438" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileCR2WQL"
+*** You are running in headless mode.
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+1672963713448	Marionette	INFO	Marionette enabled
+1672963713522	Marionette	INFO	Listening on port 59447
+Read port: 59447
+Read port: 59447
+WebDriver BiDi listening on ws://127.0.0.1:59438
+1672963715516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileCR2WQL/search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+DevTools listening on ws://127.0.0.1:59438/devtools/browser/014e0742-03ef-48f2-a73a-1de3e941a2b6
+1672963760774	Marionette	INFO	Stopped listening on port 59447
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672963825543	geckodriver	INFO	Listening on 127.0.0.1:59518
+1672963826056	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59519" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileQS5YOq"
+1672963828034	Marionette	INFO	Marionette enabled
+1672963828088	Marionette	INFO	Listening on port 59527
+Read port: 59527
+WebDriver BiDi listening on ws://127.0.0.1:59519
+Read port: 59527
+1672963829644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileQS5YOq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59519/devtools/browser/741f1dcd-6ef6-4de4-a946-8211d380447d
+1672963833459	geckodriver	INFO	Listening on 127.0.0.1:59542
+1672963833968	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "59543" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofile7SfmP8"
+*** You are running in headless mode.
+1672963835859	Marionette	INFO	Marionette enabled
+1672963836001	Marionette	INFO	Listening on port 59553
+Read port: 59553
+Read port: 59553
+WebDriver BiDi listening on ws://127.0.0.1:59543
+1672963838578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofile7SfmP8/search.json.mozlz4", (void 0)))
+1672963841935	Marionette	INFO	Stopped listening on port 59429
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+DevTools listening on ws://127.0.0.1:59543/devtools/browser/00f72fe6-d782-45c9-a8d5-43ad3b16a9f4
+1672963907442	geckodriver	INFO	Listening on 127.0.0.1:59636
+1672963907966	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59637" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileTEqQrS"
+1672963910013	Marionette	INFO	Marionette enabled
+1672963910166	Marionette	INFO	Listening on port 59647
+Read port: 59647
+Read port: 59647
+WebDriver BiDi listening on ws://127.0.0.1:59637
+1672963912524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileTEqQrS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59637/devtools/browser/d0d58e3c-17f2-488a-b716-ec56b85ef976
+1672963917228	geckodriver	INFO	Listening on 127.0.0.1:59663
+1672963917760	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "59664" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileoZXnsH"
+*** You are running in headless mode.
+1672963921558	Marionette	INFO	Marionette enabled
+1672963921896	Marionette	INFO	Listening on port 59686
+Read port: 59686
+Read port: 59686
+Read port: 59686
+WebDriver BiDi listening on ws://127.0.0.1:59664
+1672963925141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zm/vr544y5531dd10zrbqhm2hvr0000gn/T/rust_mozprofileoZXnsH/search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+DevTools listening on ws://127.0.0.1:59664/devtools/browser/6741cb61-762d-43c3-921d-614811f22cc5
+1672964058886	Marionette	INFO	Stopped listening on port 59686
+1672964080324	Marionette	INFO	Stopped listening on port 59647

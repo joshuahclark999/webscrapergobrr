@@ -13,8 +13,9 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.common.by import By
   
 def extractSource(url):
+
+  browser = webdriver.Firefox()
   try:
-    browser = webdriver.Firefox()
     fireFoxOptions = webdriver.FirefoxOptions()
     fireFoxOptions.add_argument("--headless")
     browser = webdriver.Firefox(options=fireFoxOptions)
@@ -23,7 +24,9 @@ def extractSource(url):
     body = browser.find_element(By.XPATH, "//body[1]")
     return body.text
   finally:
-    browser.close()
+    browser.quit()
+  
+    
   
    
 def getData(body, wordlist):
@@ -33,6 +36,7 @@ def getData(body, wordlist):
   table = PrettyTable()
 
   htmlSplit = body.split(" ")
+
   for x in htmlSplit:
     x = x.strip()
     x = re.sub('[^+a-zA-Z\d\s:]', '', x)
@@ -41,6 +45,7 @@ def getData(body, wordlist):
       
 
   goodWords = Counter(goodWords)
+
   goodWords = dict(sorted(goodWords.items(), key=lambda item: item[1]))
 
   table.field_names = ["Keyword", "Times used"]
